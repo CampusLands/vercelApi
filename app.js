@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! Con variables de entorno');
+  res.send('Hello World! Con variables de entorno, con la consola');
 });
 
 
